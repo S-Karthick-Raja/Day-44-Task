@@ -33,13 +33,10 @@ mongoose.connect(URI, {
     useUnifiedTopology: true
 }, err => {
     if (err) throw err;
-    console.log("Connected to MONGODB")
+    console.log("Connected to mongodb")
 })
 
 const PORT = process.env.PORT || 5000
 app.listen(PORT, () => {
     console.log('Server is running on port', PORT)
 })
-
-// ya29.A0ARrdaM8UvHbUZZTIB09rOIMxccWLF00ezsgVMVurYos-oQBnYU_q5zBEFou3qxyvO4aHHho3pl8yPPoislJRmuGuWJK6UyIGH7Oz7Vp8fWYxN9HpZ5zKHlq7ZorcKm7CAlU8_mnMQPWL8DP_V6K7VzvfacmY
-// ACCESS_TOKEN_SECRET = -sW^C,teKU6yyCG5^D37P5jQ{T&nYk@GuP^[DJ(u3UMU[:T2P"
